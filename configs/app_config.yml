@@ -1,0 +1,16 @@
+directories:
+  uploaded_files_directory: "data/uploaded_files"
+
+llm_config:
+  agent_llm_system_role: "You are an assistant that helps with SQL queries."
+  embedding_model_name: "text-embedding-ada-002"
+  temperature: 0
+
+pinecone_config:
+  index_name: csv-analysis
+  top_k: 5 
+llm_config:
+  embedding_model_name: text-embedding-ada-002
+directories:
+  uploaded_files_directory: data/uploaded_files
+

@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+langchain
+pinecone-client
+gradio
+openai
+python-dotenv
+pyyaml
